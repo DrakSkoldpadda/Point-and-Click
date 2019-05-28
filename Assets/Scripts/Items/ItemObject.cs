@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class ItemObject : MonoBehaviour
+public class ItemObject : MonoBehaviour, IInteract
 {
     public Item thisItem;
 
@@ -51,13 +51,13 @@ public class ItemObject : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (player.transform.position.x - transform.position.x > -1f && player.transform.position.x - transform.position.x < 1f)
+        if (player.transform.position.x - transform.position.x > -3f && player.transform.position.x - transform.position.x < 3f)
         {
-            PickUp();
+            Interact();
         }
     }
 
-    void PickUp()
+    public void Interact()
     {
         if (inventory.equippedItem == null)
         {

@@ -15,4 +15,4 @@ MonoBehaviour:
   itemName: Coin
   itemSprite: {fileID: 7006365129216033665, guid: 7ec1f426d007ec1499bc70126d887589,
     type: 3}
-  description: One coin closer to being rich.
+  description: Money

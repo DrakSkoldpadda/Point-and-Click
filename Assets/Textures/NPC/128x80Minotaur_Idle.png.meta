@@ -1,40 +1,31 @@
 fileFormatVersion: 2
-guid: 22bb03985662abb409bbe9b1bab7c021
+guid: 618dc8a5c640e764c8033874a224cc5e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9120289522794039733
-    second: 128x80Minotaur_Death_0
+      213: -4789791371151887219
+    second: 128x80Minotaur_Idle_0
   - first:
-      213: 8863994116006659373
-    second: 128x80Minotaur_Death_1
+      213: -5861909217757291473
+    second: 128x80Minotaur_Idle_1
   - first:
-      213: -8878473261626615486
-    second: 128x80Minotaur_Death_2
+      213: 9122314955702327483
+    second: 128x80Minotaur_Idle_2
   - first:
-      213: 7029300457233653078
-    second: 128x80Minotaur_Death_3
+      213: -6869238743604338225
+    second: 128x80Minotaur_Idle_3
   - first:
-      213: -6066293670128219339
-    second: 128x80Minotaur_Death_4
+      213: 4722929220789981753
+    second: 128x80Minotaur_Idle_4
   - first:
-      213: 3902758825240843059
-    second: 128x80Minotaur_Death_5
+      213: 4478406388542795493
+    second: 128x80Minotaur_Idle_5
   - first:
-      213: 8684667326127401640
-    second: 128x80Minotaur_Death_6
+      213: -7210098540237001815
+    second: 128x80Minotaur_Idle_6
   - first:
-      213: -2115194316541389421
-    second: 128x80Minotaur_Death_7
-  - first:
-      213: 6513037448638737016
-    second: 128x80Minotaur_Death_8
-  - first:
-      213: -7952506268942827958
-    second: 128x80Minotaur_Death_9
-  - first:
-      213: -4874027355676336964
-    second: 128x80Minotaur_Death_10
+      213: -1531229174546019415
+    second: 128x80Minotaur_Idle_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -78,9 +69,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -129,7 +120,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -150,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 128x80Minotaur_Death_0
+      name: 128x80Minotaur_Idle_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 0
         y: 0
-        width: 55
-        height: 46
+        width: 128
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f8f412cac8dea34e95960c0c9d85fb3
-      internalID: -9120289522794039733
+      spriteID: cc13fc8862a062e4e95e91e3b0ca1b08
+      internalID: -4789791371151887219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 128x80Minotaur_Death_1
+      name: 128x80Minotaur_Idle_1
       rect:
         serializedVersion: 2
-        x: 137
+        x: 128
         y: 0
-        width: 55
-        height: 43
+        width: 128
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f6d6cd63b307be4f85cc2b1c3b79c12
-      internalID: 8863994116006659373
+      spriteID: 6eb81cdbfe00551428c1c1eba0265835
+      internalID: -5861909217757291473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 128x80Minotaur_Death_2
+      name: 128x80Minotaur_Idle_2
       rect:
         serializedVersion: 2
-        x: 271
+        x: 256
         y: 0
-        width: 55
-        height: 36
+        width: 128
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3240b682ef07c30418e363d41b2d63ef
-      internalID: -8878473261626615486
+      spriteID: f1cc160af8403de4e99c83177c13a505
+      internalID: 9122314955702327483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 128x80Minotaur_Death_3
+      name: 128x80Minotaur_Idle_3
       rect:
         serializedVersion: 2
-        x: 399
+        x: 384
         y: 0
-        width: 55
-        height: 35
+        width: 128
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7eb4bbd710705f4bb6d4d56a0a2b98b
-      internalID: 7029300457233653078
+      spriteID: 9112c3dc32f6a474f963f3278c4ffaff
+      internalID: -6869238743604338225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 128x80Minotaur_Death_4
+      name: 128x80Minotaur_Idle_4
       rect:
         serializedVersion: 2
-        x: 528
+        x: 512
         y: 0
-        width: 55
-        height: 35
+        width: 128
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01220d49aa9878346978b329313da35c
-      internalID: -6066293670128219339
+      spriteID: 4f36eade8eee77a459a000ddc222cb72
+      internalID: 4722929220789981753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 128x80Minotaur_Death_5
+      name: 128x80Minotaur_Idle_5
       rect:
         serializedVersion: 2
-        x: 660
+        x: 640
         y: 0
-        width: 56
-        height: 37
+        width: 128
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e256d404d431584e8baf4b89e4b3bbc
-      internalID: 3902758825240843059
+      spriteID: 0b81d6ee6c06c2a4192c738cdefcb5b7
+      internalID: 4478406388542795493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 128x80Minotaur_Death_6
+      name: 128x80Minotaur_Idle_6
       rect:
         serializedVersion: 2
-        x: 801
+        x: 768
         y: 0
-        width: 52
-        height: 18
+        width: 128
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,20 +281,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37f2ebb5ac8cd624e8e7bf83de896296
-      internalID: 8684667326127401640
+      spriteID: fa5fafcdb47461b4e942941fab91e928
+      internalID: -7210098540237001815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 128x80Minotaur_Death_7
+      name: 128x80Minotaur_Idle_7
       rect:
         serializedVersion: 2
-        x: 928
+        x: 896
         y: 0
-        width: 53
-        height: 15
+        width: 128
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,71 +302,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac98c424ad0fce34abf7628c2f39e8f4
-      internalID: -2115194316541389421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 128x80Minotaur_Death_8
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 0
-        width: 53
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3fbab0b11b664b4eba6b130ec55d615
-      internalID: 6513037448638737016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 128x80Minotaur_Death_9
-      rect:
-        serializedVersion: 2
-        x: 1184
-        y: 0
-        width: 53
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0dcc7c23bd866e2438f1d3e69539ec11
-      internalID: -7952506268942827958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 128x80Minotaur_Death_10
-      rect:
-        serializedVersion: 2
-        x: 1312
-        y: 0
-        width: 53
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5604b1aa0d483a4396cc10e007c77a7
-      internalID: -4874027355676336964
+      spriteID: 9d37c0f9f601a8842bd721b2238b2a21
+      internalID: -1531229174546019415
       vertices: []
       indices: 
       edges: []
@@ -383,7 +311,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b46a023605094af46817e49a24aa27a7
+    spriteID: fe6fdf6eedfb28d43a934404707f909b
     internalID: 0
     vertices: []
     indices: 

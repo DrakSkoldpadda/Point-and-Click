@@ -14,9 +14,13 @@ public class Inventory : MonoBehaviour
 
     public TextMeshProUGUI itemNameText;
 
+    private InventoryItemSave savedItem;
+
     // Start is called before the first frame update
     void Start()
     {
+        savedItem = GameObject.FindWithTag("SavedItem").GetComponent<InventoryItemSave>();
+
         if (equippedItem != null)
         {
             image.enabled = enabled;
@@ -47,6 +51,8 @@ public class Inventory : MonoBehaviour
         image.sprite = item.itemSprite;
 
         UpdateNameText();
+
+        savedItem.savedItem = equippedItem;
     }
 
     public void DropItem()
@@ -59,5 +65,7 @@ public class Inventory : MonoBehaviour
         image.enabled = !enabled;
 
         UpdateNameText();
+
+        savedItem.savedItem = equippedItem;
     }
 }

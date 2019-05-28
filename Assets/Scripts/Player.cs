@@ -7,12 +7,17 @@ public class Player : MonoBehaviour, IDirection
     public float MoveSpeed => speed;
     private float speed = 5f;
 
-    private bool canPoint = true;
-    private Vector3 targetPos;
+    [HideInInspector]
+    public bool canPoint = true;
+    [HideInInspector]
+    public Vector3 targetPos;
 
     private Animator anim;
     private SpriteRenderer sRend;
     private Rigidbody2D rBody;
+
+    public Collider2D rightCollider;
+    public Collider2D leftCollider;
 
     private void Awake()
     {
@@ -55,9 +60,9 @@ public class Player : MonoBehaviour, IDirection
         {
             RaycastHit2D hit = Physics2D.Raycast(mousePos, -Vector2.up);
 
-            if (hit.collider != null && hit.collider.tag != "Player" && hit.collider.tag != "NPC" && hit.distance <= 3f)
+            if (hit.collider != null && hit.collider.tag != "Player" && hit.distance <= 3f)
             {
-                targetPos = new Vector3(mousePos.x, hit.point.y + 0.4f);
+                targetPos = new Vector3(mousePos.x, hit.point.y);
 
                 canPoint = false;
             }

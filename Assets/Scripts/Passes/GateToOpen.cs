@@ -11,14 +11,17 @@ public class GateToOpen : Interacteble, IInteract
 
     protected void OnMouseDown()
     {
-        if (!locked)
+        if (player.transform.position.x - transform.position.x > -3f && player.transform.position.x - transform.position.x < 3f)
         {
-            Interact();
-        }
-        else
-        {
-            infoText.text = "Can't open";
-            TextPopUp();
+            if (!locked)
+            {
+                Interact();
+            }
+            else
+            {
+                infoText.text = "Can't open";
+                TextPopUp();
+            }
         }
     }
 

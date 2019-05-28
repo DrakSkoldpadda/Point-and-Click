@@ -1,17 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Lever : Interacteble, IInteract
+public class YouWinDoor : Interacteble, IInteract
 {
-    public GateToOpen gate;
-    private Animator anim;
+    public GameObject youWinMenu;
 
     protected override void Start()
     {
-        base.Start();
-
-        anim = GetComponent<Animator>();
+        youWinMenu.SetActive(false);
     }
 
     protected void OnMouseDown()
@@ -24,7 +22,12 @@ public class Lever : Interacteble, IInteract
 
     public void Interact()
     {
-        gate.locked = false;
-        anim.SetTrigger("On");
+        YouWin();
+    }
+
+    void YouWin()
+    {
+        Time.timeScale = 0f;
+        youWinMenu.SetActive(true);
     }
 }

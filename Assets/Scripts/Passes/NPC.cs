@@ -8,19 +8,13 @@ public class NPC : Pass, IDirection
 
     public string itemUnlocked;
 
-    protected GameObject player;
-
     protected float size;
 
     protected override void Start()
     {
         base.Start();
 
-        player = GameObject.FindWithTag("Player");
-
         size = transform.localScale.x;
-
-        Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), GetComponent<Collider2D>(), true);
     }
 
     protected virtual void Update()

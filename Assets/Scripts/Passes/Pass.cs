@@ -13,12 +13,12 @@ public class Pass : Interacteble, IInteract
     {
         base.Start();
 
-        playerInventory = GameObject.FindWithTag("Player").GetComponent<Inventory>();
+        playerInventory = player.GetComponent<Inventory>();
     }
 
     protected virtual void OnMouseDown()
     {
-        if (GameObject.FindWithTag("Player").transform.position.x - transform.position.x > -1f && GameObject.FindWithTag("Player").transform.position.x - transform.position.x < 1f)
+        if (player.transform.position.x - transform.position.x > -1f && player.transform.position.x - transform.position.x < 1f)
         {
             TryUnlock(playerInventory.equippedItem);
         }

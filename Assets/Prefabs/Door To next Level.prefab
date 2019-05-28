@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1944446906379208165}
   - component: {fileID: 1944446906379208170}
-  - component: {fileID: 1944446906379208171}
   - component: {fileID: 1944446906379208168}
+  - component: {fileID: 1894576772}
   m_Layer: 0
   m_Name: Door To next Level
-  m_TagString: Untagged
+  m_TagString: Interacteble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944446906379208169}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 67.069, y: -1.535, z: 0}
   m_LocalScale: {x: 1.4247191, y: 2.455589, z: 1.4843}
   m_Children:
@@ -83,22 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1944446906379208171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1944446906379208169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a75e450af13f29949ad6b6b7a707326e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  descriptionText: Next Level, you need a key to continue
-  wrongItemText: Am I a joke to you?Bring me what I asked for.
-  itemToInteract: {fileID: 11400000, guid: 2913ed1f944240641beb9a9f7b52e3fe, type: 2}
-  nextLevelName: Scene2
 --- !u!61 &1944446906379208168
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -125,6 +109,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.86, y: 1.28}
   m_EdgeRadius: 0
+--- !u!114 &1894576772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944446906379208169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f747509cf466b7349a12d4491d6379a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  descriptionText: Look, where you haven't looked :)
+  locked: 1
+  sceneToLoad: Scene3
 --- !u!1 &1944446906527953173
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,7 +236,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Hi guys
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -306,13 +305,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1944446906527953175}
-    characterCount: 7
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
