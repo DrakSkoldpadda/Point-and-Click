@@ -72,7 +72,11 @@ public class CameraTarget : MonoBehaviour, IMove, IDirection
             desiredPosition = new Vector3(leftPosCantPress, transform.position.y);
             leftButton.SetActive(false);
         }
-        else if (desiredPosition.x >= rightPosCantPress)
+        else
+        {
+            leftButton.SetActive(true);
+        }
+        if (desiredPosition.x >= rightPosCantPress)
         {
             desiredPosition = new Vector3(rightPosCantPress, transform.position.y);
             rightButton.SetActive(false);
@@ -80,7 +84,6 @@ public class CameraTarget : MonoBehaviour, IMove, IDirection
         else
         {
             rightButton.SetActive(true);
-            leftButton.SetActive(true);
         }
     }
 

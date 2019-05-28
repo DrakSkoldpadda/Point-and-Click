@@ -9,6 +9,8 @@ public class YouWinDoor : Interacteble, IInteract
 
     protected override void Start()
     {
+        base.Start();
+
         youWinMenu.SetActive(false);
     }
 
